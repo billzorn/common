@@ -6,9 +6,9 @@ Configs and stuff. Currently running stock Ubuntu with LXDE on VirtualBox.
 Paths:
 
 ```
-autostart -> ~/.config/lxsession/LXDE/autostart
+autostart   -> ~/.config/lxsession/LXDE/autostart
 lxde-rc.xml -> ~/.config/openbox/lxde-rc.xml
-ssh-config -> ~/.ssh/config
+ssh-config  -> ~/.ssh/config
 ```
 
 Other Tips:
