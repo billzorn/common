@@ -21,6 +21,23 @@
 (tool-bar-mode -1)
 (setq mouse-wheel-progressive-speed nil)
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; arrow keys to change windows, kind of like tmux ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(global-set-key (kbd "C-x <left>") 'windmove-left)
+(global-set-key (kbd "C-x <right>") 'windmove-right)
+(global-set-key (kbd "C-x <up>") 'windmove-up)
+(global-set-key (kbd "C-x <down>") 'windmove-down)
+
+(global-set-key (kbd "C-x <M-left>") 'shrink-window-horizontally)
+(global-set-key (kbd "C-x <M-right>") 'enlarge-window-horizontally)
+(global-set-key (kbd "C-x <M-up>") 'enlarge-window)
+(global-set-key (kbd "C-x <M-down>") 'shrink-window)
+
+;;;;;;;;;;;;;;;;;;;
+;; c indentation ;;
+;;;;;;;;;;;;;;;;;;;
+
 ;;;;;;;;;;;;;;
 ;; packages ;;
 ;;;;;;;;;;;;;;
