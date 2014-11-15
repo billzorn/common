@@ -14,3 +14,4 @@ ssh-config  -> ~/.ssh/config
 Other Tips:
 
 Look in /usr/share/xsessions to change the list of desktop sessions available at login.
+Try using ibus-setup to free C-space for use in applications!
