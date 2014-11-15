@@ -34,6 +34,17 @@
 (global-set-key (kbd "C-x <M-up>") 'enlarge-window)
 (global-set-key (kbd "C-x <M-down>") 'shrink-window)
 
+;; Note that C-x <C-left> etc. are still bound to buffer switching.
+;; However, note that putty is stupid and incapable of sending C-arrow keys,
+;; so repurpose (tmux-like) C-x n and C-x p as a backup.
+(global-set-key (kbd "C-x c d") 'narrow-to-defun)
+(global-set-key (kbd "C-x c n") 'narrow-to-region)
+(global-set-key (kbd "C-x c p") 'narrow-to-page)
+(global-set-key (kbd "C-x c w") 'widen)
+
+(global-set-key (kbd "C-x n") 'next-buffer)
+(global-set-key (kbd "C-x p") 'previous-buffer)
+
 ;;;;;;;;;;;;;;;;;;;
 ;; c indentation ;;
 ;;;;;;;;;;;;;;;;;;;
