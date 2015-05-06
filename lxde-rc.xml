@@ -314,13 +314,19 @@
     <!-- Fast access to Chromium -->
     <keybind key="C-A-B">
       <action name="Execute">
-	<command>chromium-browser</command>
+	<command>chromium-browser --touch-devices=123</command>
       </action>
     </keybind>
     <!-- Fast access to Emacs -->
     <keybind key="C-A-E">
       <action name="Execute">
 	<command>emacs</command>
+      </action>
+    </keybind>
+    <!-- Non-super-key access to Synapse -->
+    <keybind key="C-A-S">
+      <action name="Execute">
+	<command>synapse</command>
       </action>
     </keybind>
     <!-- Fast access to filemanager -->
