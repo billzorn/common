@@ -2,3 +2,31 @@ Host github.com
     HostName github.com
     User git
     IdentityFile ~/.ssh/id_rsa
+
+Host sliver
+     HostName yolo.haus
+     Port 10022
+     User bill
+     ForwardAgent yes
+
+Host syren
+     HostName yolo.haus
+     User bill
+     ForwardAgent yes
+
+Host leveler
+     HostName leveler.cs.washington.edu
+     User bill
+     ForwardAgent yes
+
+Host inane-yolo
+     HostName yolo.haus
+     Port 11022
+     User bill
+     ForwardAgent yes
+
+Host inane-uw
+     HostName inane.cs.washington.edu
+     Port 11022
+     User bill
+     ForwardAgent yes
