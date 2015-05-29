@@ -4,13 +4,13 @@ Host github.com
     IdentityFile ~/.ssh/id_rsa
 
 Host sliver
-     HostName yolo.haus
+     HostName 76.121.185.151
      Port 10022
      User bill
      ForwardAgent yes
 
 Host syren
-     HostName yolo.haus
+     HostName 76.121.185.151
      User bill
      ForwardAgent yes
 
@@ -20,7 +20,7 @@ Host leveler
      ForwardAgent yes
 
 Host inane-yolo
-     HostName yolo.haus
+     HostName 76.121.185.151
      Port 11022
      User bill
      ForwardAgent yes
