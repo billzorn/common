@@ -18,15 +18,3 @@ Host leveler
      HostName leveler.cs.washington.edu
      User bill
      ForwardAgent yes
-
-Host inane-yolo
-     HostName 76.121.185.151
-     Port 11022
-     User bill
-     ForwardAgent yes
-
-Host inane-uw
-     HostName inane.cs.washington.edu
-     Port 11022
-     User bill
-     ForwardAgent yes
