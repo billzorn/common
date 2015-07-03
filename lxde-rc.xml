@@ -324,7 +324,7 @@
       </action>
     </keybind>
     <!-- Non-super-key access to Synapse -->
-    <keybind key="C-A-S">
+    <keybind key="A-F3">
       <action name="Execute">
 	<command>synapse</command>
       </action>

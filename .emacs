@@ -25,6 +25,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; arrow keys to change windows, kind of like tmux ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 (global-set-key (kbd "C-x <left>") 'windmove-left)
 (global-set-key (kbd "C-x <right>") 'windmove-right)
 (global-set-key (kbd "C-x <up>") 'windmove-up)
@@ -38,6 +39,7 @@
 ;; Note that C-x <C-left> etc. are still bound to buffer switching.
 ;; However, note that putty is stupid and incapable of sending C-arrow keys,
 ;; so repurpose (tmux-like) C-x n and C-x p as a backup.
+
 (global-set-key (kbd "C-x c d") 'narrow-to-defun)
 (global-set-key (kbd "C-x c n") 'narrow-to-region)
 (global-set-key (kbd "C-x c p") 'narrow-to-page)
