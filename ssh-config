@@ -13,20 +13,26 @@ Host sliver
      User bill
      ForwardAgent yes
 
-Host syren
+Host syren-linux
      HostName 76.121.185.151
      Port 10022
      User bill
      ForwardAgent yes
 
-Host rage
+Host syren
      HostName 76.121.185.151
      Port 11022
      User bill
      ForwardAgent yes
 
+Host rage
+     HostName 76.121.185.151
+     Port 12022
+     User bill
+     ForwardAgent yes
+
 Host rage-wired
      HostName rage-wired.cs.washington.edu
-     Port 11022
+     Port 12022
      User bill
      ForwardAgent yes
