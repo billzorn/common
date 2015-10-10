@@ -3,18 +3,30 @@ Host github.com
     User git
     IdentityFile ~/.ssh/id_rsa
 
+Host leveler
+     HostName leveler.cs.washington.edu
+     User bill
+     ForwardAgent yes
+
 Host sliver
      HostName 76.121.185.151
-     Port 10022
      User bill
      ForwardAgent yes
 
 Host syren
      HostName 76.121.185.151
+     Port 10022
      User bill
      ForwardAgent yes
 
-Host leveler
-     HostName leveler.cs.washington.edu
+Host rage
+     HostName 76.121.185.151
+     Port 11022
+     User bill
+     ForwardAgent yes
+
+Host rage-wired
+     HostName rage-wired.cs.washington.edu
+     Port 11022
      User bill
      ForwardAgent yes
