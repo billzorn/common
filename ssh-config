@@ -9,24 +9,24 @@ Host leveler
      ForwardAgent yes
 
 Host sliver
-     HostName 24.16.211.218
+     HostName 24.17.242.179
      User bill
      ForwardAgent yes
 
 Host syren-linux
-     HostName 24.16.211.218
+     HostName 24.17.242.179
      Port 10022
      User bill
      ForwardAgent yes
 
 Host syren
-     HostName 24.16.211.218
+     HostName 24.17.242.179
      Port 11022
      User bill
      ForwardAgent yes
 
 Host rage
-     HostName 24.16.211.218
+     HostName 24.17.242.179
      Port 12022
      User bill
      ForwardAgent yes
