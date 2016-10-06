@@ -8,6 +8,11 @@ Host leveler
      User bill
      ForwardAgent yes
 
+Host vex
+     HostName vex.cs.washington.edu
+     User bill
+     ForwardAgent yes
+
 Host sliver
      HostName 24.17.242.179
      User bill
