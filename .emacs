@@ -23,6 +23,7 @@
 (add-to-list 'load-path "~/.emacs.d/lisp/rscope")
 (tool-bar-mode -1)
 (setq mouse-wheel-progressive-speed nil)
+(setq-default indent-tabs-mode nil)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; arrow keys to change windows, kind of like tmux ;;
