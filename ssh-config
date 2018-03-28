@@ -4,40 +4,34 @@ Host github.com
     IdentityFile ~/.ssh/id_rsa
 
 Host leveler
-     HostName leveler.cs.washington.edu
-     User bill
-     ForwardAgent yes
+    HostName leveler.cs.washington.edu
+    User bill
+    ForwardAgent yes
 
 Host vex
-     HostName vex.cs.washington.edu
-     User bill
-     ForwardAgent yes
+    HostName vex.cs.washington.edu
+    User bill
+    ForwardAgent yes
 
-Host sliver
-     HostName 24.17.242.179
-     User bill
-     ForwardAgent yes
-
-Host syren-linux
-     HostName 24.17.242.179
-     Port 10022
-     User bill
-     ForwardAgent yes
+Host darklight-linux
+    HostName 24.17.242.179
+    User bill
+    ForwardAgent yes
 
 Host syren
-     HostName 24.17.242.179
-     Port 11022
-     User bill
-     ForwardAgent yes
+    HostName 24.17.242.179
+    Port 11022
+    User bill
+    ForwardAgent yes
 
 Host rage
-     HostName 24.17.242.179
-     Port 12022
-     User bill
-     ForwardAgent yes
+    HostName 24.17.242.179
+    Port 12022
+    User bill
+    ForwardAgent yes
 
 Host rage-wired
-     HostName rage-wired.cs.washington.edu
-     Port 12022
-     User bill
-     ForwardAgent yes
+    HostName rage-wired.cs.washington.edu
+    Port 12022
+    User bill
+    ForwardAgent yes
